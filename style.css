@@ -1,0 +1,80 @@
+html, * , :root,body
+{
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+    border : 0;
+    background-color: #eeeeee;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid #413c69;
+    text-transform: uppercase;
+    color : #413c69;
+   }
+
+table
+{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items :flex-end;
+    margin : auto;
+}
+tr{
+    width : 50%;
+    display : flex;
+    justify-content: space-around;
+}
+button
+{
+    text-align: center;
+
+    margin : 2vh;
+    background-color: #393e46;
+    height : 8vh;
+    width : 8vh;
+    border-radius : 8vh;
+    color : white;
+    font-size : 5vh;
+    border-bottom : 1vh solid #00adb5
+}
+input 
+{
+    display : block;
+    margin : 4vh auto;
+    text-align: right;
+    width: 60%;
+    height : 15vh;
+    border : 0.5px solid black;
+    font-size : 3rem;
+    padding : 0 4vw;
+    border-radius : 3vh;
+    background-color : #eeeeee;
+
+}
+tr.clear
+{
+
+    display : flex;
+}
+img
+{
+    margin : 0;
+}
+button:active
+{
+    margin-bottom : -1vh;
+    border-bottom : none;
+}
+
+footer h3
+{
+    text-align: center;
+}
+
+

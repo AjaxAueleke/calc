@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <table>
+      <tr>
+        <input type="text" id="calc" disabled />
+      </tr>
+      <tr class = "clear">
+        <td><button style ="visibility: hidden;" onclick="num('7')">7</button></td>
+        <td><button style ="visibility: hidden;" onclick="num('8')">8</button></td>
+        <td><button style ="visibility: hidden;" onclick="num('9')">9</button></td><td><button onclick = "del()"><img src="delete-svgrepo-com.svg" alt="" srcset=""></button></buton></td>
+      </tr>
+      <tr>
+        <td><button onclick="num('7')">7</button></td>
+        <td><button onclick="num('8')">8</button></td>
+        <td><button onclick="num('9')">9</button></td>
+        <td><button onclick="num('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="num('4')">4</button></td>
+        <td><button onclick="num('5')">5</button></td>
+        <td><button onclick="num('6')">6</button></td>
+        <td><button onclick="num('-')">-</button></td>
+      </tr>
+
+      <tr>
+        <td><button onclick="num('1')">1</button></td>
+        <td><button onclick="num('2')">2</button></td>
+        <td><button onclick="num('3')">3</button></td>
+        <td><button onclick="num('*')">*</button></td>
+      </tr>
+
+      <tr>
+        <td><button onclick="num('7')">0</button></td>
+        <td><button onclick="num('.')">.</button></td>
+        <td><button onclick="num('/')">/</button></td>
+        <td><button onclick="Eval()">=</button></td>
+      </tr>
+    </table>
+    <footer>
+      <h3>Made with ❤️ by Ahmed</h3>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
