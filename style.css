@@ -6,7 +6,12 @@ html, * , :root,body
     border : 0;
     background-color: #eeeeee;
 }
-
+body{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
 h1 {
     text-align: center;
     font-family: "Trebuchet MS", sans-serif;
@@ -22,11 +27,12 @@ table
     display : flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items :flex-end;
-    margin : auto;
+    align-items : center;
+
+
 }
 tr{
-    width : 50%;
+    width : 100%;
     display : flex;
     justify-content: space-around;
 }
@@ -41,7 +47,7 @@ button
     border-radius : 8vh;
     color : white;
     font-size : 5vh;
-    border-bottom : 1vh solid #00adb5
+    border-bottom : 1vh solid #00adb5;
 }
 input 
 {
@@ -49,12 +55,12 @@ input
     margin : 4vh auto;
     text-align: right;
     width: 60%;
-    height : 15vh;
-    border : 0.5px solid black;
-    font-size : 3rem;
+    height : 10vh;
+    font-size : 4rem;
     padding : 0 4vw;
-    border-radius : 3vh;
+    border-radius : 0.3vh;
     background-color : #eeeeee;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
 }
 tr.clear
@@ -77,4 +83,9 @@ footer h3
     text-align: center;
 }
 
-
+footer 
+{
+    margin-top : auto;
+    padding : 30px;
+    font-size : 3rem;
+}
