@@ -10,3 +10,5 @@ function del()
 {
     document.getElementById('calc').value = document.getElementById('calc').value.slice(0, document.getElementById('calc').value.length -1);
 }
+
+document.addEventListener();
